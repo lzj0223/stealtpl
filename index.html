@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    	    <meta http-equiv="X-UA-Compatible" content="IE=9;IE=8;IE=7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Zihan&#039;s Blog - 关注前端，关注Wordpress</title>                                        <meta name="keywords" content="前端开发,web开发,wordpress主题开发,子涵的博客,zihan" />
+    <meta name="description" content="这里是子涵的个人博客，关注前端开发和wordpress主题开发，分享个人经验心得和一些自己捣鼓的玩意儿，欢迎关注和交流！" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link rel="Shortcut Icon" href="http://www.zi-han.net/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/rss+xml" title="Zihan&#039;s Blog &raquo; Feed" href="http://www.zi-han.net/feed" />
+<link rel="alternate" type="application/rss+xml" title="Zihan&#039;s Blog &raquo; 评论Feed" href="http://www.zi-han.net/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.zi-han.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='style-css'  href='http://www.zi-han.net/wp-content/themes/Mirana/style.css?ver=4.4.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='mirana-ie8-css'  href='http://www.zi-han.net/wp-content/themes/Mirana/static/css/ie8.css?ver=4.4.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='wp-zan-0.0.10-css'  href='http://www.zi-han.net/wp-content/plugins/wp-zan/static/css/wp-zan-0.0.10.css?ver=0.0.10' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.zi-han.net/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.zi-han.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mirana = {"galleryEffect":"random","galleryInterval":"5","swf":"http:\/\/www.zi-han.net\/wp-content\/themes\/Mirana\/static\/swf"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.zi-han.net/wp-content/themes/Mirana/static/js/index.js?ver=1.52'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpzan_ajax_url = "http:\/\/www.zi-han.net\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.zi-han.net/wp-content/plugins/wp-zan/static/js/wp-zan-0.0.10.js?ver=0.0.10'></script>
+<link rel='https://api.w.org/' href='http://www.zi-han.net/wp-json/' />
+		<style type="text/css">
+			.wp-zan{
+				color: !important
+			}
+			.wp-zan:hover{
+				color: !important
+			}
+			.wp-zan.zaned{
+				color: !important
+			}
+		</style>
+	    </head>
+<body class="home blog" >
+<header id="header">
+	<div class="center">
+        		<a class="logo" href="http://www.zi-han.net" alt="Zihan&#039;s Blog"><img src="http://www.zi-han.net/wp-content/uploads/2015/09/logo1.png" alt="Zihan&#039;s Blog" /></a>
+		<nav id="topnav" class="menu-%e4%b8%bb%e8%8f%9c%e5%8d%95-container"><ul id="menu-%e4%b8%bb%e8%8f%9c%e5%8d%95" class="menu"><li id="menu-item-1212" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1212"><a href="http://www.zi-han.net/">首页</a></li>
+<li id="menu-item-1165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1165"><a href="http://www.zi-han.net/category/themes">本站主题</a></li>
+<li id="menu-item-1156" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1156"><a href="http://www.zi-han.net/category/developer">前端开发</a>
+<ul class="sub-menu">
+	<li id="menu-item-1154" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1154"><a href="http://www.zi-han.net/category/tools">前端工具</a></li>
+	<li id="menu-item-1162" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1162"><a href="http://www.zi-han.net/category/wordpress">wordpress</a></li>
+	<li id="menu-item-1157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1157"><a href="http://www.zi-han.net/category/developer/js">javascript</a></li>
+	<li id="menu-item-1158" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1158"><a href="http://www.zi-han.net/category/developer/css">css</a></li>
+	<li id="menu-item-1159" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1159"><a href="http://www.zi-han.net/category/developer/html">html</a></li>
+	<li id="menu-item-1160" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1160"><a href="http://www.zi-han.net/category/developer/jquery">Jquery</a></li>
+	<li id="menu-item-1161" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1161"><a href="http://www.zi-han.net/category/developer/flash">Flash</a></li>
+</ul>
+</li>
+<li id="menu-item-1166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1166"><a href="#">关于我</a>
+<ul class="sub-menu">
+	<li id="menu-item-1170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1170"><a href="http://www.zi-han.net/about">子涵是谁？</a></li>
+	<li id="menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138"><a href="http://www.zi-han.net/laboratory">实验室</a></li>
+	<li id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660"><a title="联系我" href="http://www.zi-han.net/contact">@Me</a></li>
+</ul>
+</li>
+<li id="menu-item-1221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1221"><a target="_blank" href="https://github.com/Beau-zihan?tab=repositories">GitHub</a></li>
+</ul></nav>        <div class="search right">
+            <form class="search-form clearfix" method="get" action="http://www.zi-han.net/">
+                <input class="search-submit" type="submit" />
+                <input class="search-text" name="s" type="text" placeholder="Search..." />
+            </form>
+        </div>
+	</div>
+</header>	        <div id="slider">
+            <div class="center clearfix">
+                <div class="slider-left">
+                                                <div class="slider-thumbnail">
+                                <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/11/hplus.png&#38;w=500&#38;h=300&#38;zc=1&#38;q=100' alt='基于Bootstrap3.3.6的后台主题UI框架H+ v4.1.0版发布' width='500' height='300' />                            </div>
+                                                    <div class="slider-thumbnail">
+                                <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/04/belite.png&#38;w=500&#38;h=300&#38;zc=1&#38;q=100' alt='beLite，做最好的wordpress移动主题' width='500' height='300' />                            </div>
+                                                    <div class="slider-thumbnail">
+                                <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2012/09/easyuidoc1.png&#38;w=500&#38;h=300&#38;zc=1&#38;q=100' alt='[原创]jQuery EasyUI 1.3中文文档' width='500' height='300' />                            </div>
+                                                    <div class="slider-thumbnail">
+                                <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/themes/Mirana/static/images/random/6.jpg&#38;w=500&#38;h=300&#38;zc=1&#38;q=100' alt='[原创]本站IE6forWin8测试工具正式发布' width='500' height='300' />                            </div>
+                                                    <div class="slider-thumbnail">
+                                <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2013/05/webim-preview0.png&#38;w=500&#38;h=300&#38;zc=1&#38;q=100' alt='[原创]即时通讯web版--WebIM jQuery插件发布' width='500' height='300' />                            </div>
+                                        </div>
+                <div class="slider-right">
+                                                <div class="slider-content">
+                                <h1><a href="http://www.zi-han.net/developer/1031.html">基于Bootstrap3.3.6的后台主题UI框架H+ v4.1.0版发布</a></h1>
+                                <div class="slidertext">
+                                    <p>您是否需要自己做一款后台、会员中心等等的，但是又缺乏html等前端知识… 您是否一直在苦苦寻找一款适合自己的后台主题… 您是否想做一款自己的web应用程序… ………… 那么，现在H+来了
+先来看两张图：
+
+
+
+
+官网地址：http://www.zi-han.net/theme/hplus/
+
+什么是H+
+H+是一个完全响应式，基于Bootstrap3.3.6最新版本开发的扁平……</p>
+                                </div>
+                                <div class="sliderfooter">
+                                    <a href="http://www.zi-han.net/developer/1031.html" class="sliderlink">阅读全部</a>
+                                </div>
+                            </div>
+                                                    <div class="slider-content">
+                                <h1><a href="http://www.zi-han.net/themes/995.html">beLite，做最好的wordpress移动主题</a></h1>
+                                <div class="slidertext">
+                                    <p>该主题已经停售！！！
+ifanr theme自发布以来收到了许多好评，在此感谢各位的反馈和支持！但是ifanr移动版一直没有更新，这中间有诸多的原因，反馈最多的就是应该加入菜单，加入搜索，加入小工具and so on，仔细算下来，不亚于pc版的主题，可是同学们，你们好像都忽视了一个问题，移动应用应该以轻为主，以快为主，小工具……</p>
+                                </div>
+                                <div class="sliderfooter">
+                                    <a href="http://www.zi-han.net/themes/995.html" class="sliderlink">阅读全部</a>
+                                </div>
+                            </div>
+                                                    <div class="slider-content">
+                                <h1><a href="http://www.zi-han.net/developer/569.html">[原创]jQuery EasyUI 1.3中文文档</a></h1>
+                                <div class="slidertext">
+                                    <p>EasyUI1.3更新内容：
+
+HTML5 数据选项属性是可用于申报所有的自定义选项，包括属性和事件的组件。
+提供更详细的资料。
+panel： 防止面板的身体上的脚本运行两次。
+accordion: 添加 'getPanelIndex' 的方法。
+accordion： 工具可以添加面板接头。
+datetimebox： 添加 'timeSeparator' 选项允许用户定义的时间分隔符。
+pagi……</p>
+                                </div>
+                                <div class="sliderfooter">
+                                    <a href="http://www.zi-han.net/developer/569.html" class="sliderlink">阅读全部</a>
+                                </div>
+                            </div>
+                                                    <div class="slider-content">
+                                <h1><a href="http://www.zi-han.net/developer/779.html">[原创]本站IE6forWin8测试工具正式发布</a></h1>
+                                <div class="slidertext">
+                                    <p>做前端的恐怕有很多时间折腾在IE6上，装win7、win8的同学更苦逼，没有真实的测试环境，还得通过装虚拟机之类的解决，前些时候写过一篇文章，分享一款Win7下的IE6测试工具：IE6forWin7，但是最近安装win8后，发现IE6ForWin7不能正常使用，今天重新打了下包，测试没问题，分享给大家。姑且先叫IE6ForWin8吧。
+IE6ForWin8的……</p>
+                                </div>
+                                <div class="sliderfooter">
+                                    <a href="http://www.zi-han.net/developer/779.html" class="sliderlink">阅读全部</a>
+                                </div>
+                            </div>
+                                                    <div class="slider-content">
+                                <h1><a href="http://www.zi-han.net/developer/721.html">[原创]即时通讯web版&#8211;WebIM jQuery插件发布</a></h1>
+                                <div class="slidertext">
+                                    <p>WebIM已不再维护，如果您需要一款web即时通讯插件，可以移步到这里了解一下H+。
+WebIM是一款基于jQuery的一款web即时通讯插件，姑且这么称呼吧。插件最大程度实现了IM的常用功能，除即时通讯的常用功能外，还加入了：消息盒子、窗口抖动、添加删除好友、最近联系人、超时登录界面、网站小秘书、聊天记录、发送频率限制、……</p>
+                                </div>
+                                <div class="sliderfooter">
+                                    <a href="http://www.zi-han.net/developer/721.html" class="sliderlink">阅读全部</a>
+                                </div>
+                            </div>
+                                        </div>
+                <div class="slider-dots">
+                    <a href="javascript:;">1</a><a href="javascript:;">2</a><a href="javascript:;">3</a>                </div>  
+                <a href="javascript:;" class="slider-nav slider-prev"></a>
+                <a href="javascript:;" class="slider-nav slider-next"></a>
+            </div>
+        </div>
+        <div id="content">
+        <div class="main">
+            <div class="center">
+                                    <ul id="indexcat" class="clearfix">
+                        <li class="menucat">分类目录：</li>
+                        <li><a href="http://www.zi-han.net" data-hover='所有'  class="current"  >所有</a></li>
+                        <li><a href="http://www.zi-han.net/category/developer/css" data-hover='css'>css</a></li><li><a href="http://www.zi-han.net/category/developer/flash" data-hover='Flash'>Flash</a></li><li><a href="http://www.zi-han.net/category/developer/html" data-hover='html'>html</a></li><li><a href="http://www.zi-han.net/category/developer/js" data-hover='javascript'>javascript</a></li><li><a href="http://www.zi-han.net/category/developer/jquery" data-hover='Jquery'>Jquery</a></li><li><a href="http://www.zi-han.net/category/wordpress" data-hover='wordpress'>wordpress</a></li><li><a href="http://www.zi-han.net/category/wordpress/site" data-hover='wp建站'>wp建站</a></li><li><a href="http://www.zi-han.net/category/wordpress/dev" data-hover='主题开发'>主题开发</a></li><li><a href="http://www.zi-han.net/category/tools" data-hover='前端工具'>前端工具</a></li><li><a href="http://www.zi-han.net/category/developer" data-hover='前端开发'>前端开发</a></li><li><a href="http://www.zi-han.net/category/themes" data-hover='本站主题'>本站主题</a></li><li><a href="http://www.zi-han.net/category/life" data-hover='杂记'>杂记</a></li>                    </ul>
+                                <ul class="grid effect-2 articles clearfix" id="grid">
+                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/developer/1031.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/11/hplus.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="基于Bootstrap3.3.6的后台主题UI框架H+ v4.1.0版发布" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/developer/1031.html" rel="bookmark">
+                基于Bootstrap3.3.6的后台主题UI框架H+ v4.1.0版发布            </a>
+        </h2>
+        <div class="post-content">
+            您是否需要自己做一款后台、会员中心等等的，但是又缺乏html等前端知识… 您是否一直在苦苦寻找一款适合自己的后台主题… 您是否想做一款自……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/themes/995.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/04/belite.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="beLite，做最好的wordpress移动主题" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/themes/995.html" rel="bookmark">
+                beLite，做最好的wordpress移动主题            </a>
+        </h2>
+        <div class="post-content">
+            该主题已经停售！！！
+ifanr theme自发布以来收到了许多好评，在此感谢各位的反馈和支持！但是ifanr移动版一直没有更新，这中间有诸多的……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/developer/569.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2012/09/easyuidoc1.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="[原创]jQuery EasyUI 1.3中文文档" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/developer/569.html" rel="bookmark">
+                [原创]jQuery EasyUI 1.3中文文档            </a>
+        </h2>
+        <div class="post-content">
+            EasyUI1.3更新内容：
+
+HTML5 数据选项属性是可用于申报所有的自定义选项，包括属性和事件的组件。
+提供更详细的资料。
+panel： 防止面板……        </div>
+    </div>
+    </li>                                            <li class="post post-audio post-audio-url" data-url="http://www.zi-han.net/wp-content/uploads/2015/09/xiaowangshu.mp3">
+    <div class="post-audio-thumbnail">
+        <div class="audiolay"></div>
+        <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/themes/Mirana/static/images/random/7.jpg&#38;w=330&#38;h=200&#38;zc=1&#38;q=100' alt='笑忘书' width='330' height='200' />        <div class="post-audio-button"></div>
+        <div class="post-audio-nav">
+            <div class="post-audio-position">0:00</div>
+            <div class="post-audio-prosess">
+                <div class="post-audio-prosess-played">
+                    <div class="post-audio-prosess-button"></div>
+                </div>
+            </div>
+            <div class="post-audio-duration">0:00</div>
+        </div>
+    </div>
+    <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/life/1192.html" rel="bookmark">
+                笑忘书            </a>
+        </h2>
+        <div class="post-content">
+            没没有蜡烛 就不用勉强庆祝
+没没想到答案 就不要寻找题目
+没没有退路 那我也不要思慕
+没没人去仰慕 让我就继续忙碌
+来啊来 思前想后
+差一……        </div>
+    </div>
+</li>                                            <li class="post post-status">
+    <div class="post-thumbnail">
+        <div class="statusinfo">子涵<br/>发表于 2015-09-23</div>
+        <img src='http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/themes/Mirana/static/images/random/9.jpg&#38;w=330&#38;h=200&#38;zc=1&#38;q=100' alt='新征程，新希望' width='330' height='200' />    </div>
+    <div class="post-body">
+        <div class="post-avatar"><a href="http://www.zi-han.net/life/1187.html" rel="bookmark"><img alt='' src='http://gravatar.duoshuo.com/avatar/7e0a40b522b8cb4868b5557ff12d460c?s=80&#038;d=mm&#038;r=g' srcset='http://gravatar.duoshuo.com/avatar/7e0a40b522b8cb4868b5557ff12d460c?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a></div>
+        <div class="post-content">
+            沉舟侧畔千帆过，病树前头万木春。
+换个新主题，重新来过，不用关心我，我很好，你们也保重……
+        </div>
+    </div>
+</li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/themes/990.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/03/beNext.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="本站主题beNextv4.1发布" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/themes/990.html" rel="bookmark">
+                本站主题beNextv4.1发布            </a>
+        </h2>
+        <div class="post-content">
+            该主题已经停售！！！
+ifanr theme从4.0版本开始正式更名为beNext，可以和手机版beLite配合使用，beLite官网：http://belite.mobi，beLit……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/wordpress/960.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2014/03/custom-options.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="[教程]给你的主题添加自定义主题设置页面" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/wordpress/960.html" rel="bookmark">
+                [教程]给你的主题添加自定义主题设置页面            </a>
+        </h2>
+        <div class="post-content">
+            对于初学者来说，为主题添加设置选项可能是主题开发过程中最麻烦的事情。在wordpress主题后台设置框架Options Framework（中文版）一文中……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/themes/919.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2013/10/ifanr-theme-v3.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="本站主题 ifanr theme v3.0已正式发布(已更新到4.1)" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/themes/919.html" rel="bookmark">
+                本站主题 ifanr theme v3.0已正式发布(已更新到4.1)            </a>
+        </h2>
+        <div class="post-content">
+            该主题已经停售！！！
+经过V2.0前后8个版本（V2.0-V2.0.7）的迭代和近7周的筹备，3个beta版本的迭代，ifanr theme v3.0终于和大家见面了……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/wordpress/dev/914.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2013/10/theme-gzip.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="[教程]如何为您的wordpress主题启用Gzip，加快载入速度（非插件）" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/wordpress/dev/914.html" rel="bookmark">
+                [教程]如何为您的wordpress主题启用Gzip，加快载入速度（非插件）            </a>
+        </h2>
+        <div class="post-content">
+            如果是主题使用者，可以通过修改.htaccess或者使用插件来启用Gzip，加快访问者的载入速度，同时节省流量（启用Gzip后，文档大小会缩小60%……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/wordpress/dev/911.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2013/10/contribute.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="[教程]如何为你的主题添加一个投稿模板页面（非插件）" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/wordpress/dev/911.html" rel="bookmark">
+                [教程]如何为你的主题添加一个投稿模板页面（非插件）            </a>
+        </h2>
+        <div class="post-content">
+            主题制作完成后，我们可能需要添加一些自定义页面模板，方便使用者使用，下面我们以新增加一个投稿页面为例，说明如何给主题添加一个自定……        </div>
+    </div>
+    </li>                                            
+<li class="post post-width-thumbnail">
+                <div class="post-thumbnail">
+                <div class="overlay"><a href="http://www.zi-han.net/wordpress/dev/903.html" rel="bookmark"><img src="http://www.zi-han.net/wp-content/themes/Mirana/static/images/view.png" alt="Zihan&#039;s Blog" /></a></div>
+                <img src="http://www.zi-han.net/wp-content/themes/Mirana/timthumb.php&#63;src=http://www.zi-han.net/wp-content/uploads/2013/10/comments-2.png&#38;w=320&#38;h=200&#38;zc=1&#38;q=100" alt="[教程]为您的wordpress评论添加ajax支持（二）：wordpress主题ajax评论分页的实现（非插件）" width="320" height="200" />
+            </div>
+            <div class="post-body">
+        <h2 class="post-title">
+            <a href="http://www.zi-han.net/wordpress/dev/903.html" rel="bookmark">
+                [教程]为您的wordpress评论添加ajax支持（二）：wordpress主题ajax评论分页的实现（非插件）            </a>
+        </h2>
+        <div class="post-content">
+            上一节我们提到了非插件如何为wordpress主题添加ajax评论功能，现在我们来实现非插件为wordpress主题评论添加ajax分页功能，分两部分，分……        </div>
+    </div>
+    </li>                                    </ul>
+                <nav class="pagenav clearfix">
+                    <span class='page-numbers current'>1</span><a class='page-numbers' href='http://www.zi-han.net/page/2' title='第2页'>2</a><a class='page-numbers' href='http://www.zi-han.net/page/3' title='第3页'>3</a><a class='page-numbers' href='http://www.zi-han.net/page/4' title='第4页'>4</a><a class='page-numbers' href='http://www.zi-han.net/page/5' title='第5页'>5</a><span class='right'><a class='page-numbers page-numbers-next' href='http://www.zi-han.net/page/2' title='下一页'>下一页</a></span>                </nav>
+            </div>
+        </div>
+    </div>
+<footer id="footer">
+	<div class="sns">
+		<a href="http://weibo.com/atzihan" target="_blank" rel="nofollow" class="weibo"><span>新浪微博</span></a><a href="http://www.zi-han.net/feed" target="_blank" rel="nofollow" class="rss"><span>订阅我</span></a>	</div>
+	<div class="copyright">&copy; 2011-2014 <a href="/">Zihan&#039;s Blog</a> All Rights Reserved&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Theme <a href="http://oneiro.me/" target="_blank">By Mugee</a> & <a href="http://mufeng.me/" target="_blank">Mufeng</a></div>
+    <div class="statistics-div"><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script></div>
+</footer>
+<script type='text/javascript' src='http://www.zi-han.net/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+</body>
+</html>
